@@ -1,0 +1,62 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+*.egg-info/
+.eggs/
+
+# Environment variables
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test and coverage artifacts
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# FastAPI / Uvicorn logs
+*.log
+
+# MyPy, Pylint, Ruff, Pyright
+.mypy_cache/
+.pyre/
+.pytype/
+ruff_cache/
+
+# Jupyter notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Docker-related
+*.pid
+docker-compose.override.yml
+**/Dockerfile.*
+**/docker-compose*.yml
+
+# Build artifacts
+dist/
+build/
+
+# Artifacts
+artifacts/
+data/
+tmp/
